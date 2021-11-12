@@ -1,0 +1,112 @@
+body{
+	font-size: 16px;
+	color: hsl(224, 23%, 55%);
+	font-family: 'Red Hat Display', sans-serif;
+	background: url(../images/pattern-background-desktop.svg) no-repeat;
+	background-color: hsl(225, 100%, 94%);
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+main{
+	padding: 100px 0;
+}
+.container{
+	width: 450px;
+	margin: 0 auto;
+	background: #fff;
+	border-radius: 20px;
+	box-shadow: 0px 20px 30px -20px hsl(224deg 23% 85%)
+}
+.hero{
+	width: 450px;
+	height: 220px;
+	border-radius: 20px 20px 0 0;
+}
+.order-summary{
+	padding: 30px 0 40px;
+	box-sizing: border-box;
+}
+.main-title, .plan-title{
+	color: hsl(223, 47%, 23%);
+}
+.main-title{
+	margin-bottom: 25px;
+	text-align: center;
+	font-size: 28px;
+	font-weight: 900;
+}
+.main-text{
+	text-align: center;
+	width: 300px;
+	margin: 0 auto;
+	line-height: 1.6em;
+	margin-bottom: 20px;
+}
+.annual-plan{
+	width: 350px;
+	margin: 0 auto;
+	border-radius: 10px;
+	background: url(../images/icon-music.svg) no-repeat left 25px center;
+	background-color: hsl(225, 100%, 98%);
+	padding: 20px 25px 20px 95px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+}
+.plan-title{
+	font-size: 16px;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+.change-btn{
+	color: hsl(245, 75%, 52%);
+	font-weight: 900;
+	font-size: 14px;
+	display: block;
+	position: relative;
+	top: 13px;
+}
+.change-btn:active {
+	text-decoration: none;
+	color: hsl(245, 75%, 65%);
+}
+.buttons{
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 30px;
+}
+.payment-btn, .cancel-btn{
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	width: 100%;
+	font-size: 15px;
+	font-weight: 900;
+}
+.payment-btn{
+	color: #fff;
+	background: hsl(245, 75%, 52%);
+	border-radius: 10px;
+	height: 50px;
+	padding-top: 15px;
+	box-sizing: border-box;
+	margin-bottom: 35px;
+	box-shadow: 0px 20px 35px -20px hsl(245, 75%, 52%);
+}
+.payment-btn:active{
+	background: hsl(245, 75%, 65%);
+}
+.cancel-btn{
+	color: hsl(224, 23%, 55%);
+}
+.cancel-btn:active{
+	color: #000;
+}
+.attribution{
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+
