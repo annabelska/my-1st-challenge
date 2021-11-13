@@ -110,3 +110,51 @@ main{
 }
 
 
+@media screen and (max-width: 576px){
+	body{
+		font-size: 14px;
+		background: url(../images/pattern-background-mobile.svg) no-repeat;
+		background-color: hsl(225, 100%, 94%);
+	}
+	.container{
+		width: 88%;
+	}
+	.hero{
+		width: 100%;
+		height: auto;
+	}
+	.order-summary{
+		padding-top: 22px;
+	}
+	.main-title{
+		font-size: 20px;
+		margin-bottom: 17px;
+	}
+	.main-text{
+		width: 70%;
+	}
+	.annual-plan{
+		width: 80%;
+		padding: 20px 15px 20px 80px;
+		background-position: left 15px center;	
+	}
+	.plan-title{
+		font-size: 14px;
+		margin-bottom: 3px;
+	}
+	.change-btn{
+		font-size: 12px;
+	}
+	.buttons{
+		width: 80%;
+	}
+	.payment-btn, .cancel-btn{
+		font-size: 14px;
+	}
+	.payment-btn{
+		margin-bottom: 22px;
+	}
+	.attribution{
+		font-size: 12px;
+	}
+}
