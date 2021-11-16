@@ -3,7 +3,7 @@ body{
 	color: hsl(224, 23%, 55%);
 	font-family: 'Red Hat Display', sans-serif;
 	background: url(../images/pattern-background-desktop.svg) no-repeat;
-	background-size: cover;
+	background-size: stretch;
 	background-color: hsl(225, 100%, 94%);
 }
 *{
